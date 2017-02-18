@@ -1,0 +1,162 @@
+body {
+    height: 2000px;
+    font-family: "MyriadProRegular";
+}
+
+.shareSocial {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    width: 87px;
+    height: 69px;
+    background-color: #fbaf5d;
+    border: 1px solid #000000;
+}
+
+.shareSocial p {
+    margin: 8px auto;
+    text-align:center;
+    font-size: 16px;
+}
+
+.shareSocial img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.shareSocial figure {
+    margin: 0;
+}
+
+.wrapLayers {
+    min-width: 1340px;
+    margin: 0 auto;
+}
+
+.layer1 {
+    position: relative;
+    left: 19px;
+    margin-top: 239px;
+    background-color: #acacac;
+}
+
+.layer2 {
+    background-color: #cccccc;
+    position: relative;
+    top: -770px;
+    margin-bottom: -751px;
+
+}
+
+.layer3 {
+    background-color: #ebebeb;
+    position: relative;
+    top: -789px;
+    left: -19px;
+    margin-bottom: -751px;
+}
+
+body > div > div {
+    border: 2px solid #000000;
+    width: 520px; /* should be 519px, but it's doesn't matter */
+    height: 747px;
+    margin: 0 auto;
+}
+
+.bookmark1 {
+    position: relative;
+    top: 46px;
+    left: 501px;
+    width: 33px;
+    height: 31px;
+    background-color: #00aeef;
+    border: 2px solid #000000;
+    border-bottom-right-radius: 10px;
+}
+
+.bookmark2 {
+    position: relative;
+    top: 41px;
+    left: 501px;
+    width: 67px;
+    height: 31px;
+    background-color: #39b54a;
+    border: 2px solid #000000;
+    border-bottom-right-radius: 10px;
+}
+
+.bookmark3 {
+    position: relative;
+    top: 38px;
+    left: 492px;
+    margin-bottom: -38px;
+    width: 107px;
+    height: 31px;
+    background-color: #f68e56;
+    border: 2px solid #000000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article {
+    padding: 38px 31px 31px 31px;
+    font-size: 12px;
+
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 auto auto 0;
+    font-weight: normal;
+}
+
+.firstFig {
+    float: left;
+    margin: 12px 20px 10px 0;
+}
+
+.secFig {
+    float: right;
+    margin: 6px 0 0 6px;
+}
+
+.firstFig > img {
+    width: 207px;
+    height: 111px;
+}
+
+.secFig > img {
+    width: 140px;
+    height: 140px;
+}
+
+h3 {
+    clear: right;
+    font-size: 18px;
+    margin-top: 48px;
+    font-weight: normal;
+}
+
+.thirdFig > img:nth-child(odd) {
+    margin-bottom: 15px;
+    width: 194px;
+    height: 89px;
+}
+
+.thirdFig > img:nth-child(even) {
+    float: right;
+    margin-bottom: 15px;
+    width: 194px;
+    height: 89px;
+}
+
+.thirdFig {
+    margin: 0;
+}
+
+p:last-child {
+    text-align: center;
+    font-size: 9px;
+}
